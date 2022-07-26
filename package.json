@@ -9,7 +9,8 @@
     "format-check": "prettier --check '**/*.ts'",
     "lint": "eslint lib/**/*.ts",
     "test": "jest",
-    "all": "npm run build && npm run format && npm run lint && npm test"
+    "all": "yarn run build && yarn run format && yarn run lint && yarn test",
+    "dependency-upgrade": "yarn upgrade && yarn run all"
   },
   "keywords": [],
   "author": "",
